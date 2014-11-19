@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<menu>
+  <item>
+    <path>civicrm/roombooking</path>
+    <page_callback>CRM_Roombooking_Form_Roombooking</page_callback>
+    <title>New Room Details Page</title>
+    <access_arguments>access CiviCRM</access_arguments>
+  </item>
+<item>
+    <path>civicrm/roombookingconfirmation</path>
+    <page_callback>CRM_Roombooking_Form_Roombookingconfirm</page_callback>
+    <title>New Room Details Confirmation Page</title>
+    <access_arguments>access CiviCRM</access_arguments>
+  </item>
+<item>
+    <path>civicrm/roombookingview</path>
+    <page_callback>CRM_Roombooking_Form_Roombookingsearch</page_callback>
+    <title>Room Details View Page</title>
+    <access_arguments>access CiviCRM</access_arguments>
+</item>
+
+</menu>
